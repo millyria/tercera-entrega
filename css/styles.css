@@ -1,0 +1,229 @@
+html, body {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    overflow-x: hidden;
+}
+header {
+    background-color: #000218;
+    width: 100%;
+    height: 95px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+    z-index: 3;
+    box-sizing: border-box; 
+}
+header img {
+    max-height: 100%;
+}
+.container1 {
+    background-color:#000218;
+    width: 100%;
+    height: 682px;
+    top: 0;
+    display: flex;
+    gap: 30px;
+    color: white;
+    padding: 10px;
+    align-items: center;
+    margin-top: 58px;
+    position: relative;
+    justify-content: space-between;
+}
+.caja {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    gap: 30px;
+    z-index: 1;
+    margin-left: 200px;
+}
+
+.caja .titulo {
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+    font-size: 58px;
+}
+.caja .Merchandise {
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+}
+.buttons {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 10px;
+}
+button {
+    align-self: flex-start;
+}
+.shop{
+    width: 119px;
+    height: 52px;
+    background-color: #E74040; /* Cambia el fondo del botón a rojo */
+    color: white; /* Cambia el texto a blanco para contraste */
+    border: none; /* Elimina el borde si no es necesario */
+    padding: 15px, 40px, 15px, 40px; /* Ajusta el padding según sea necesario */
+    cursor: pointer; /* Cambia el cursor a pointer al pasar sobre el botón */
+    border-radius:5px;
+    gap: 10px;
+    width: 119px;
+}
+.Cart{
+width: 167px;
+height: 52px;
+border-radius: 5px;
+padding: 15px, 40px, 15px, 40px;
+gap:10px;
+color: #E74040;
+cursor: pointer; 
+background-color:#000218 ;
+border: 2px solid red;
+}
+
+.caja2 {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    height: 682px;
+    overflow: hidden;
+}
+.caja2 img.background {
+    position: absolute;
+    top: 0;
+    right: -100px; /* Ajusta según sea necesario */
+    width: 756px;
+    height: 350px;
+    object-fit: cover;
+    z-index: 0;
+}
+.caja2 img.mano {
+    position: absolute;
+    width: 230px;
+    height: 429.85px;
+    top: 89px;
+    right: 190px;
+}
+.caja2 img.elipse {
+    position: absolute;
+    width: 293px;
+    height: 32px;
+    top: calc(88px + 430px);
+    right: 140px;
+}
+.heroes {
+    width: 100%;
+    font-size: 24px;
+    font-weight: bold;
+    white-space: nowrap;
+    margin-bottom: 20px;
+    text-align: left; /* Centra el texto horizontalmente */
+    margin-top: 100px;
+    margin-left: 80px;
+}
+.container2{
+    width: 100%;
+    height: 718px;
+    left: 195px;
+    padding:160px 0px 160px, 0px ;
+    gap: 80px;
+    top: 777px;
+    font-family: Montserrat, sans-serif;
+    justify-content: center;
+}
+.cajas {
+    width: 1045px; /* Ancho del contenedor para las cajas */
+    height: auto; /* Ajusta la altura automáticamente según el contenido */
+    gap: 30px; /* Espacio entre las cajas */
+    display: flex; /* Usa flexbox para alinear las cajas */
+    justify-content: space-between; /* Distribuye el espacio uniformemente entre las cajas */
+    flex-wrap: nowrap; /* Evita que las cajas se envuelvan a la siguiente línea */
+    align-items: flex-start; /* Alinea las cajas al principio del contenedor verticalmente */
+    margin-left: 80px;
+}
+.caja3, .caja4, .caja5 {
+    width: 328px;
+    height: auto;
+    padding:35px 40px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:left;
+    text-align: left;    
+    background: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    position: relative;
+}
+.line {
+    width: 50px;
+    height: 2px;
+    background-color: red;
+    margin: 10px 0; /* Ajusta el margen superior e inferior según sea necesario */
+}
+.caja3 img, .caja4 img, .caja5 img {
+    margin-top: 40px;
+    width: 72px;
+    height: 72px;
+    left: 0.5px;
+}
+.Thor {
+    border-radius: 50%;
+}
+.container3{
+    background-color: #000000;
+    width: 100%;
+    height: 600px;
+    top: 1495px;
+    text-align: center;
+    font-size: 64px;
+    font-family: Roboto, sans-serif;
+    color: white;
+    padding: 20px 20px;
+}
+.day{
+    font-size: 48px;
+}
+footer{
+    background-color: #323030;
+    width: 100%;
+    height: 74px;
+    color: #FFFFFF;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: space-around; /* Deja el texto a la izquierda y las imágenes a la derecha */
+    padding: 0 5px; /* Espaciado a los lados */
+    box-sizing: border-box; /* Incluye el padding dentro del ancho del footer */
+}
+footer img {
+    margin-left: 5x; /* Mueve los íconos un poco a la derecha */
+}
+.footer-content {
+    display: flex;
+    align-items: center; /* Centra el contenido verticalmente */
+}
+
+.footer-content img {
+    margin-left: 0px; /* Elimina cualquier espacio entre las imágenes */
+}
+
+.footer-images {
+    display: flex;
+    align-items: center; /* Alinea las imágenes verticalmente */
+}
+
+.footer-images img {
+    margin-left: 10px; /* Asegura que no haya espacio entre las imágenes */
+}
+
